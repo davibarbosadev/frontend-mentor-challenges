@@ -3,11 +3,14 @@
 }
 
 .recipe__image {
+    position: absolute;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .recipe__intro {
-    padding: 2.4rem;
+   padding-top: 22rem;
 }
 
 .recipe__title {

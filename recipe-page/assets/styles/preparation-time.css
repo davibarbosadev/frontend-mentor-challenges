@@ -4,13 +4,14 @@
 }
 
 .preparation-time__title {
-    margin-bottom: 1.6rem;
     color: var(--clr-rose-800);
 }
 
 .preparation-time__list {
+    position: relative;
+    padding-left: 2.4rem;
+    margin: 2.4rem 0 0 1.2rem ;
     list-style: none;
-    padding-left: 1.2rem;
 }
 
 .preparation-time__item {
@@ -22,6 +23,7 @@
 .preparation-time__item::before {
     content: "";
     position: absolute;
+    left: 0;
     width: 0.7rem;
     height: 0.7rem;
     border-radius: 100%;
@@ -29,11 +31,10 @@
 }
 
 .preparation-time__item:not(:last-child) {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.6rem;
 }
 
 .preparation-time__text {
-    margin-left: 2rem;
     color: var(--clr-stone-600);
 }
 

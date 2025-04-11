@@ -1,0 +1,33 @@
+.instructions {
+    padding: 3.2rem 0;
+    border-bottom: 2px solid var(--clr-stone-150);
+}
+
+.instructions__list {
+    list-style: none;
+    margin: 3.2rem 0 0 1.2rem;
+    counter-reset: item;
+    position: relative;
+}
+
+.instructions__item {
+    counter-increment: item;
+    margin: 0 0 2.4rem 3.2rem;
+}
+
+.instructions__item:last-child {
+    margin-bottom: 0;
+}
+
+.instructions__item::before {
+    content: counter(item) ".";
+    position: absolute;
+    left: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--clr-brown-800);
+}
+
+.instructions__text > span {
+    font-weight: 700;
+}

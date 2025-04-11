@@ -11,6 +11,7 @@ html {
 
 body {
     background-color: var(--clr-white);
+    color: var(--clr-stone-600);
     font-size: 1.6rem;
     height: 150rem;
 }

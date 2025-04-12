@@ -16,6 +16,8 @@
 }
 
 .preparation-time__item {
+    display: flex;
+    align-items: center;
     font-size: 1.6rem;
 }
 

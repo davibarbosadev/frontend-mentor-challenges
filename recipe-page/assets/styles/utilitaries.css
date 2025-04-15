@@ -16,3 +16,17 @@
     font-family: "Young Serif", serif;
     color: var(--clr-brown-800);
 }
+
+.list {
+    padding-left: 3.2rem;
+    margin: 2.4rem 0 0 1.2rem;
+    list-style: none;
+}
+
+.list > li {
+    margin-bottom: 1.6rem;
+}
+
+.list > li:last-child {
+    margin-bottom: 0;
+}

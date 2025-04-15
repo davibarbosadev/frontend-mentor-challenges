@@ -1,17 +1,10 @@
 .ingredients__list {
-    list-style: none;
     position: relative;
-    margin: 2.4rem 0 0 1.2rem;
 }
 
 .ingredients__item {
     display: flex;
     align-items: center;
-    margin: 0 0 1.6rem 3.2rem;
-}
-
-.ingredients__item:last-child {
-    margin-bottom: 0;
 }
 
 .ingredients__item::before {

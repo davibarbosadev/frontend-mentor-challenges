@@ -1,27 +1,23 @@
 .instructions__list {
-    list-style: none;
-    margin: 3.2rem 0 0 1.2rem;
+    padding: 0;
     counter-reset: item;
 }
 
 .instructions__item {
     position: relative;
     counter-increment: item;
-    margin: 0 0 2.4rem 3.2rem;
-}
-
-.instructions__item:last-child {
-    margin-bottom: 0;
 }
 
 .instructions__item::before {
     content: counter(item) ".";
     position: absolute;
-    top: 0;
-    left: -3.3rem;
     font-size: 1.8rem;
     font-weight: bold;
     color: var(--clr-brown-800);
+}
+
+.instructions__text {
+    padding-left: 3.2rem;
 }
 
 .instructions__text > span {

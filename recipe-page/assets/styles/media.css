@@ -18,10 +18,9 @@
     }
 }
 
-
 @media (min-width: 968px) {
     .container {
-        padding:  3.2rem 3.2rem 0; 
+        padding: 3.2rem 3.2rem 0;
         margin: 5rem auto;
         border-radius: 1.6rem;
     }

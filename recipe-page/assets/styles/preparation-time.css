@@ -9,16 +9,12 @@
 }
 
 .preparation-time__list {
-    padding-left: 2.4rem;
-    margin: 2.4rem 0 0 1.2rem;
-    list-style: none;
     position: relative;
 }
 
 .preparation-time__item {
     display: flex;
     align-items: center;
-    font-size: 1.6rem;
 }
 
 .preparation-time__item::before {
@@ -29,10 +25,6 @@
     height: 0.7rem;
     border-radius: 100%;
     background-color: var(--clr-rose-800);
-}
-
-.preparation-time__item:not(:last-child) {
-    margin-bottom: 1.6rem;
 }
 
 .preparation-time__text {

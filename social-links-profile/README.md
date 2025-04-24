@@ -39,8 +39,6 @@ O layout foi criado com uma abordagem mobile-first e segue boas práticas de mar
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   Flexbox
--   Mobile-first workflow
-
 
 ## Autor
 

@@ -5,9 +5,9 @@ Esta é uma solução para o [desafio de perfil de links sociais no Frontend Men
 ## Índice
 
 -   [Visão Geral](#visão-geral)
-    -   [Captura de Tela](#captura-de-tela)
-    -   [Links](#links)
-    -   [Construído com](#construido-com)
+-   [Captura de Tela](#captura-de-tela)
+-   [Links](#links)
+-   [Construído com](#construido-com)
 -   [Author](#author)
 
 ## Visão Geral

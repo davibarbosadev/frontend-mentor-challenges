@@ -24,9 +24,9 @@ Este projeto é um perfil de links sociais, desenvolvido como parte de um desafi
 
 O layout foi criado com uma abordagem mobile-first e segue boas práticas de marcação semântica e organização do CSS.
 
-### Screenshot
+### Captura de Tela
 
-![](./assets/images/social-links-profile.png.jpg)
+![](assets/images/social-links-profile.png)
 
 
 ### Links

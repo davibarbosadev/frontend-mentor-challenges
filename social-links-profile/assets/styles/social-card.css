@@ -1,0 +1,82 @@
+.social__card {
+    width: 90%;
+    max-width: 375px;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.2rem;
+    background-color: var(--clr-grey-800);
+}
+
+.social__header {
+    margin-bottom: 2.4rem;
+}
+
+.social__image {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.social__text {
+    margin-top: 2rem;
+}
+
+.social__text h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.social__text h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.8rem;
+    color: var(--clr-green);
+}
+
+.social__text p {
+    font-size: 1.6rem;
+}
+
+.social__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    list-style: none;
+}
+
+.social__item {
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: .8rem;
+    background-color: var(--clr-grey-700);
+    transition: all .3s ease;
+}
+
+.social__item:hover {
+    font-weight: 700;
+    color: var(--clr-grey-900);
+    background-color: var(--clr-green);
+}
+
+.attribution {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.attribution p {
+    margin-bottom: 1.2rem;
+}
+
+.attribution a:any-link {
+    text-decoration: none;
+    color: var(--clr-green);
+    opacity: .7;
+}
+
+.attribution a:any-link:hover {
+    opacity: 1;
+    text-decoration: underline;
+}

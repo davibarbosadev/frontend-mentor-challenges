@@ -6,7 +6,6 @@ Esta é uma solução para o [desafio de perfil de links sociais no Frontend Men
 
 -   [Visão Geral](#visão-geral)
 -   [Captura de Tela](#captura-de-tela)
--   [Links](#links)
 -   [Construído com](#construido-com)
 -   [Author](#author)
 
@@ -26,7 +25,7 @@ O layout foi criado com uma abordagem mobile-first e segue boas práticas de mar
 
 ### Captura de Tela
 
-![](assets/images/social-links-profile-page.png.png)
+![](assets/images/social-links-profile-page.png)
 
 
 ### Construído com:

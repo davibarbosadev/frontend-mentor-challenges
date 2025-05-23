@@ -6,7 +6,6 @@ Esta é uma solução para o [desafio da página de receita](https://www.fronten
 
 -   [Visão Geral](#visão-geral)
 -   [Captura de Tela](#captura-de-tela)
--   [Links](#links)
 -   [Construído com](#construído-com)
 -   [Autor](#autor)
 
@@ -27,10 +26,6 @@ O layout foi construído com abordagem mobile-first e utiliza boas práticas de 
 
 ![Captura de tela da página de receita](./assets/images/recipe-page.png)
 
-### Links
-
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ### Construído com
 
 -   HTML5 semântico
@@ -39,5 +34,4 @@ O layout foi construído com abordagem mobile-first e utiliza boas práticas de 
 
 ## Autor
 
--   Website - [Add your name here](https://www.your-site.com)
 -   Frontend Mentor - [@davibarbosadev](https://www.frontendmentor.io/profile/davibarbosadev)

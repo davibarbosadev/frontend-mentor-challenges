@@ -1,4 +1,5 @@
 .social__card {
+    justify-self: center;
     width: 90%;
     max-width: 375px;
     padding: 2rem;

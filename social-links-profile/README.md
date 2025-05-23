@@ -26,12 +26,7 @@ O layout foi criado com uma abordagem mobile-first e segue boas práticas de mar
 
 ### Captura de Tela
 
-![](assets/images/social-links-profile.png)
-
-
-### Links
-
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![](assets/images/social-links-profile-page.png.png)
 
 
 ### Construído com:
@@ -42,5 +37,4 @@ O layout foi criado com uma abordagem mobile-first e segue boas práticas de mar
 
 ## Autor
 
--   Website - [Add your name here](https://www.your-site.com)
 -   Frontend Mentor - [@davibarbosadev](https://www.frontendmentor.io/profile/davibarbosadev)

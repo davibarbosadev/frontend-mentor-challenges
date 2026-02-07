@@ -1,0 +1,67 @@
+.list {
+    position: relative;
+    padding-left: 3.2rem;
+    margin: 2.4rem 0 0 1.2rem;
+    list-style: none;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.6rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        & p {
+            color: var(--clr-stone-600);
+
+            & span {
+                font-weight: 700;
+            }
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 0.7rem;
+            height: 0.7rem;
+            border-radius: 100%;
+        }
+    }
+
+    &--preparation-time {
+        & li::before {
+            background-color: var(--clr-rose-800);
+        }
+    }
+
+    &--ingredients {
+        & li::before {
+            background-color: var(--clr-brown-800);
+        }
+    }
+
+    &--instructions {
+        padding: 0;
+        counter-reset: item;
+
+        & li {
+            position: relative;
+            counter-increment: item;
+
+            p {
+                padding-left: 3.2rem;
+            }
+
+            &::before {
+                content: counter(item) ".";
+                position: absolute;
+                font-size: 1.8rem;
+                font-weight: bold;
+                color: var(--clr-brown-800);
+            }
+        }
+    }
+}

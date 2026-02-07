@@ -1,13 +1,13 @@
 @media (min-width: 768px) {
-    .container {
+    .recipe {
         padding: 0 3.2rem;
+
+        &__cover {
+            margin-left: -3.2rem;
+        }
     }
 
-    .recipe__image {
-        margin-left: -3.2rem;
-    }
-
-    .nutrition__table td:first-child {
+    .table td:first-child {
         padding-left: 15%;
     }
 
@@ -19,13 +19,13 @@
 }
 
 @media (min-width: 968px) {
-    .container {
+    .recipe {
         padding: 3.2rem 3.2rem 0;
         margin: 5rem auto;
         border-radius: 1.6rem;
     }
 
-    .recipe__image {
+    .recipe__cover {
         margin: 0;
         width: 100%;
         border-radius: 1.2rem;

@@ -1,21 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- displays site properly based on user's device -->
-
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-
         <link rel="stylesheet" href="./assets/styles/main.css" />
-
         <title>Receita de Omelete | Desafio Frontend Mentor</title>
     </head>
     <body>
-        <div class="container">
-            <header class="recipe__header">
+        <div class="recipe">
+            <section class="recipe__hero">
                 <img
-                    class="recipe__image"
+                    class="recipe__cover"
                     src="assets/images/image-omelette.jpeg"
                     alt="Prato com omelete dourado servido em um prato branco"
                 />
@@ -28,101 +24,102 @@
                         recheado com queijo, legumes, carnes ou ervas de sua preferência.
                     </p>
                 </div>
-            </header>
+            </section>
 
             <section class="preparation-time">
-                <h2 class="section__title">Tempo de Preparo</h2>
-                <ul class="preparation-time__list list">
-                    <li class="preparation-time__item">
-                        <p class="preparation-time__text">
-                            <span>Total:</span> Aproximadamente 10 minutos
+                <h2 class="preparation-time__title">Tempo de Preparo</h2>
+                <ul class="list list--preparation-time">
+                    <li class="list__item">
+                        <p><span>Total:</span> Aproximadamente 10 minutos</p>
+                    </li>
+                    <li class="list__item">
+                        <p><span>Preparo:</span> 5 minutos</p>
+                    </li>
+
+                    <li class="list__item">
+                        <p><span>Cozimento:</span> 5 minutos</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section ingredients">
+                <h2 class="section__title">Ingredientes</h2>
+                <ul class="list list--ingredients">
+                    <li class="list__item"><p>2 a 3 ovos grandes</p></li>
+                    <li class="list__item"><p>Sal a gosto</p></li>
+                    <li class="list__item"><p>Pimenta-do-reino a gosto</p></li>
+                    <li class="list__item"><p>1 colher de sopa de manteiga ou óleo</p></li>
+                    <li class="list__item">
+                        <p>
+                            Recheios opcionais: queijo, legumes picados, carnes cozidas, ervas
+                            frescas
                         </p>
                     </li>
-                    <li class="preparation-time__item">
-                        <p class="preparation-time__text"><span>Preparo:</span> 5 minutos</p>
-                    </li>
-
-                    <li class="preparation-time__item">
-                        <p class="preparation-time__text"><span>Cozimento:</span> 5 minutos</p>
-                    </li>
                 </ul>
             </section>
 
-            <section class="ingredients section">
-                <h2 class="section__title">Ingredientes</h2>
-                <ul class="ingredients__list list">
-                    <li class="ingredients__item">2 a 3 ovos grandes</li>
-                    <li class="ingredients__item">Sal a gosto</li>
-                    <li class="ingredients__item">Pimenta-do-reino a gosto</li>
-                    <li class="ingredients__item">1 colher de sopa de manteiga ou óleo</li>
-                    <li class="ingredients__item">
-                        Recheios opcionais: queijo, legumes picados, carnes cozidas, ervas frescas
-                    </li>
-                </ul>
-            </section>
-            <section class="instructions section">
+            <section class="section instructions">
                 <h2 class="section__title">Modo de preparo</h2>
-                <ol class="instructions__list list">
-                    <li class="instructions__item">
-                        <p class="instructions__text">
+                <ol class="list list--instructions">
+                    <li class="list__item">
+                        <p>
                             <span>Bata os ovos:</span> Em uma tigela, bata bem os ovos com uma
                             pitada de sal e pimenta. Para uma textura mais leve e fofa, adicione uma
                             colher de sopa de água ou leite.
                         </p>
                     </li>
-                    <li class="instructions__item">
-                        <p class="instructions__text">
+                    <li class="list__item">
+                        <p>
                             <span>Aqueça a frigideira:</span> Coloque uma frigideira antiaderente em
                             fogo médio e adicione a manteiga ou o óleo.
                         </p>
                     </li>
-                    <li class="instructions__item">
-                        <p class="instructions__text">
+                    <li class="list__item">
+                        <p>
                             <span>Cozinhe os ovos:</span> Quando a manteiga derreter e começar a
                             borbulhar, despeje os ovos batidos. Incline a frigideira para que o
                             líquido cubra toda a superfície de maneira uniforme.
                         </p>
                     </li>
-                    <li class="instructions__item">
-                        <p class="instructions__text">
+                    <li class="list__item">
+                        <p>
                             <span>Adicione o recheio (opcional):</span> Quando as bordas começarem a
                             firmar e o centro ainda estiver levemente úmido, distribua o recheio
                             escolhido sobre metade da omelete.
                         </p>
                     </li>
-                    <li class="instructions__item">
-                        <p class="instructions__text">
+                    <li class="list__item">
+                        <p>
                             <span>Dobre e finalize:</span> Com cuidado, dobre a omelete ao meio,
                             cobrindo o recheio. Cozinhe por mais um minuto e então transfira para o
                             prato.
                         </p>
                     </li>
-                    <li class="instructions__item">
-                        <p class="instructions__text">
-                            <span>Sirva:</span> Sirva quente, com mais sal e pimenta, se desejar.
-                        </p>
+                    <li class="list__item">
+                        <p><span>Sirva:</span> Sirva quente, com mais sal e pimenta, se desejar.</p>
                     </li>
                 </ol>
             </section>
+
             <section class="nutrition section">
                 <h2 class="section__title">Informações nutricionais</h2>
-                <p class="nutrition__info">
+                <p class="section__description">
                     Valores aproximados por porção, sem considerar os recheios opcionais.
                 </p>
-                <table class="nutrition__table">
-                    <tr class="row">
+                <table class="table table--nutrition">
+                    <tr class="table__row">
                         <td>Calorias</td>
                         <td>277Kcal</td>
                     </tr>
-                    <tr>
+                    <tr class="table__row">
                         <td>Carboidratos</td>
                         <td>0g</td>
                     </tr>
-                    <tr>
+                    <tr class="table__row">
                         <td>Proteìnas</td>
                         <td>20g</td>
                     </tr>
-                    <tr>
+                    <tr class="table__row">
                         <td>Gorduras</td>
                         <td>22g</td>
                     </tr>
@@ -140,8 +137,13 @@
                         >Frontend Mentor</a
                     >.
                 </p>
-                <p>&copy; 2025 codificado por <a class="footer__link" href="#">Davi Barbosa</a>.</p>
+                <p>
+                    &copy; <span id="year"></span> codificado por
+                    <a class="footer__link" href="#">Davi Barbosa</a>.
+                </p>
             </div>
         </footer>
+
+        <script src="assets/js/script.js"></script>
     </body>
 </html>

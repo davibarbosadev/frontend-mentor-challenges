@@ -1,11 +1,209 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
-@import "variables.css";
-@import "reset.css";
-@import "utilitaries.css";
-@import "header.css";
-@import "preparation-time.css";
-@import "ingredients.css";
-@import "instructions.css";
-@import "nutrition.css";
-@import "footer.css";
-@import "media.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--clr-stone-100);
+  color: var(--clr-stone-600);
+  font-size: 1.6rem;
+}
+
+:root {
+  /***** colors *****/
+  --clr-white: hsl(0, 0%, 100%);
+  /* Stone */
+  --clr-stone-100: hsl(30, 54%, 90%);
+  --clr-stone-150: hsl(30, 18%, 87%);
+  --clr-stone-600: hsl(30, 10%, 34%);
+  --clr-stone-900: hsl(24, 5%, 18%);
+  /* Brown */
+  --clr-brown-800: hsl(14, 45%, 36%);
+  /* Rose */
+  --clr-rose-50: hsl(330, 100%, 98%);
+  --clr-rose-800: hsl(332, 51%, 32%);
+}
+
+.section {
+  padding: 3.2rem 0;
+  border-bottom: 2px solid var(--clr-stone-150);
+}
+.section__title {
+  font-size: 2.4rem;
+  font-family: "Young Serif", serif;
+  color: var(--clr-brown-800);
+}
+.section__description {
+  padding: 1.6rem 0;
+}
+
+.recipe__hero {
+  margin-bottom: 3.2rem;
+}
+.recipe__cover {
+  width: 100vw;
+  object-fit: cover;
+  margin-left: -2.4rem;
+}
+.recipe__intro {
+  margin-top: 2.4rem;
+}
+.recipe__title {
+  margin-bottom: 1.6rem;
+  color: var(--clr-stone-900);
+  font-size: 3.2rem;
+  line-height: 1.2;
+  font-family: "Young Serif", serif;
+}
+.recipe__description {
+  color: var(--clr-stone-600);
+}
+
+.list {
+  position: relative;
+  padding-left: 3.2rem;
+  margin: 2.4rem 0 0 1.2rem;
+  list-style: none;
+}
+.list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.list__item:last-child {
+  margin-bottom: 0;
+}
+.list__item p {
+  color: var(--clr-stone-600);
+}
+.list__item p span {
+  font-weight: 700;
+}
+.list__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 100%;
+}
+.list--preparation-time li::before {
+  background-color: var(--clr-rose-800);
+}
+.list--ingredients li::before {
+  background-color: var(--clr-brown-800);
+}
+.list--instructions {
+  padding: 0;
+  counter-reset: item;
+}
+.list--instructions li {
+  position: relative;
+  counter-increment: item;
+}
+.list--instructions li p {
+  padding-left: 3.2rem;
+}
+.list--instructions li::before {
+  content: counter(item) ".";
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--clr-brown-800);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table__row:not(:last-child) {
+  border-bottom: 2px solid var(--clr-stone-150);
+}
+.table__row td {
+  padding: 1.6rem 0 1.6rem 10%;
+  transition: all 0.7s ease-in;
+}
+.table__row td:last-child {
+  font-weight: bold;
+  color: var(--clr-brown-800);
+}
+.table__row:last-child td {
+  padding-bottom: 0;
+}
+
+.recipe {
+  max-width: 96.8rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+  background-color: var(--clr-white);
+  transition: all 0.3s ease;
+}
+
+.preparation-time {
+  padding: 2.4rem;
+  background-color: var(--clr-rose-50);
+}
+.preparation-time__title {
+  font-family: "Outfit", sans-serif;
+  color: var(--clr-rose-800);
+}
+
+.footer {
+  padding: 2.4rem 0 1.6rem;
+  background-color: var(--clr-brown-800);
+}
+.footer__attribution {
+  width: 100%;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  color: var(--clr-white);
+}
+.footer__link {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer__link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .recipe {
+    padding: 0 3.2rem;
+  }
+  .recipe__cover {
+    margin-left: -3.2rem;
+  }
+  .table td:first-child {
+    padding-left: 15%;
+  }
+  .footer__attribution {
+    flex-direction: row;
+    justify-content: center;
+    gap: 4.8rem;
+  }
+}
+@media (min-width: 968px) {
+  .recipe {
+    padding: 3.2rem 3.2rem 0;
+    margin: 5rem auto;
+    border-radius: 1.6rem;
+  }
+  .recipe__cover {
+    margin: 0;
+    width: 100%;
+    border-radius: 1.2rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
